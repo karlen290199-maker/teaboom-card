@@ -1,0 +1,31 @@
+@media (max-width: 480px) {
+  .page {
+    padding: 16px 12px;
+  }
+
+  .product-card {
+    padding: 16px;
+    border-radius: 12px;
+
+    &__title {
+      font-size: 22px;
+    }
+  }
+
+  .price--current {
+    font-size: 24px;
+  }
+
+  .price--old {
+    font-size: 16px;
+  }
+
+  .weight__label {
+    padding: 8px 14px;
+    font-size: 14px;
+  }
+
+  .btn--cart {
+    max-width: none;
+  }
+}

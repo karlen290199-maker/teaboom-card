@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ананасовый улун — Teaboom</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <main class="page">
+    <article class="product-card">
+
+      <div class="product-card__gallery">
+        <img
+          src="./img/ananas-ulun.jpg"
+          alt="Ананасовый улун — светлый Фуцзяньский улун с ароматом ананаса"
+          class="product-card__image"
+          width="600"
+          height="600"
+        >
+      </div>
+
+      <div class="product-card__info">
+
+        <p class="product-card__category">Улун</p>
+
+        <h1 class="product-card__title">Ананасовый улун</h1>
+
+        <p class="product-card__article">
+          Артикул: <span data-article>01306</span>
+        </p>
+
+        <fieldset class="product-card__weights">
+          <legend class="visually-hidden">Выберите фасовку</legend>
+
+          <label class="weight">
+            <input type="radio" name="weight" value="100" checked>
+            <span class="weight__label">100 г</span>
+          </label>
+
+          <label class="weight">
+            <input type="radio" name="weight" value="500">
+            <span class="weight__label">500 г</span>
+          </label>
+
+          <label class="weight">
+            <input type="radio" name="weight" value="1000">
+            <span class="weight__label">1000 г</span>
+          </label>
+
+          <label class="weight">
+            <input type="radio" name="weight" value="5000">
+            <span class="weight__label">5000 г</span>
+          </label>
+        </fieldset>
+
+        <div class="product-card__price">
+          <span class="price price--old" data-old-price>349,20 ₽</span>
+          <span class="price price--current" data-current-price>326,40 ₽</span>
+        </div>
+
+        <button type="button" class="btn btn--cart">В корзину</button>
+
+        <div class="product-card__description">
+          <p>
+            Светлый Фуцзяньский улун с ароматом ананаса. В сухом виде — красивый
+            крупный лист изумрудного цвета, скруткой напоминающий Те Гуань Инь.
+            Настой мягкий, сладковатый, с тропическими нотами и долгим послевкусием.
+          </p>
+        </div>
+
+      </div>
+    </article>
+  </main>
+<script src="main.js"></script>
+</body>
+</html>

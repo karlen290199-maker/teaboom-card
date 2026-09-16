@@ -1,0 +1,13 @@
+@media (max-width: 900px) {
+  .product-card {
+    grid-template-columns: 1fr;
+    gap: 24px;
+    padding: 24px;
+  }
+  .product-card__title {
+    font-size: 26px;
+  }
+  .product-card__image {
+    max-height: 420px;
+  }
+}/*# sourceMappingURL=tablet.css.map */

@@ -1,0 +1,15 @@
+@media (max-width: 900px) {
+  .product-card {
+    grid-template-columns: 1fr;
+    gap: 24px;
+    padding: 24px;
+
+    &__title {
+      font-size: 26px;
+    }
+
+    &__image {
+      max-height: 420px;
+    }
+  }
+}
